@@ -1,0 +1,345 @@
+/* ===== NAVBAR ===== */
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-item{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    Color: #555;
+}
+
+.nav-bar{
+Background-Color: #fff;
+Box-Shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+Color: #1A1A2E;
+
+}
+
+.nav-btn{
+font-size: 1rem;
+}
+
+.nav-title2{
+Color: #C9A84C;
+}
+
+.btn{
+font-size: 1em;
+Background-Color: #1A1A2E;
+Color: #fff;
+Background-Color: #2D2D4E;
+}
+
+/* ===== HERO SECTION ===== */
+.Hero-sec{
+Background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+Color: #fff;
+text-align: center;
+padding: 80px;
+}
+
+.hero-detail{
+Color: #D1D5DB;
+}
+
+.hero-btn{
+Background-Color: #FFFF;
+Color: #1A1A2E;
+border-radius: 5px;
+}
+
+/* ===== PROJECTS SECTION ===== */
+.Project-sec{
+text-align: center;
+Color: #333;
+}
+
+.Project-title{
+Color: #1A1A2E;
+}
+
+.Project--subtitle{
+Color: #6B7280;
+}
+
+.cards{
+display:flex;
+flex-direction:column;
+border: 1px solid #C9A84C;
+Border: 1px solid #E5E7EB;
+width: 261px;
+height: auto;
+border-radius: 30px;
+display:inline-block;
+margin: 10px;
+}
+
+.cards:hover{
+Box-Shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header{
+Color: #1A1A2E;
+font-size: 2rem;
+}
+
+.card-info{
+Color: #6B7280;
+}
+
+.pro-container{
+Background-color: #fff;
+}
+
+.bubble{
+Background-color: #F0E6C8;
+color: #8B7024;
+display: inline-block;
+padding: 5px;
+border-radius: 30px;
+}
+
+/* ===== SERVICES SECTION ===== */
+.Service-sec{
+Background-Color: #F9F7F2;
+text-align: center;
+margin-top: 20px;
+}
+
+.ser-crad-container{
+Background-color: #fff;
+width: 250px;
+height: 180px;
+padding: 30px;
+Border: 1px solid #E5E7EB;
+border-radius: 30px;
+border-radius: 30px;
+margin: 10px;
+text-align: center;
+display: inline-block;
+}
+
+.service-card-heading{
+Color: #1A1A2E;
+}
+
+.service-card-info{
+Color: #6B7280;  
+}
+        
+
+/* ===== TEAM SECTION ===== */
+.Team-sec{
+Background-Color: #fff;
+text-align: center;
+}
+
+.Team-card{
+Color: #C9A84C;
+background-color: #F9FAFB;
+display: flex;
+display: inline-block;
+border: 1px solid lightgrey;
+border-radius: 30px;
+padding: 30px;
+width: 280px;
+height: 250px;
+margin: 10px;
+}
+
+.team-name{
+Color: #1A1A2E;
+}
+
+.bubble-role{
+Color: #C9A84C;
+}
+
+.team-des{
+Color: #6B7280    
+}
+
+/* ===== CONTACT SECTION ===== */
+.contac-sec{
+Background-Color: #fff;  
+}
+
+.benefit{
+Color: #C9A84C;
+}
+
+.benefit::checkmark{
+Color: #374151;
+}
+
+.contact-site{
+display: flex;
+flex-direction: column;
+display: inline-block;
+background-color: lightgray;
+Background-Color: #F9FAFB;
+Box-Shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+margin-left: 70%;
+margin-bottom: 2%;
+padding: 30px;
+}
+
+.lable{
+Color: #374151    
+}
+
+input{
+Border: 1px solid #D1D5DB;
+Border-Color: #C9A84C;
+}
+
+input:hover{
+Box-Shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
+}
+
+.sm-button{
+Background-Color: #1A1A2E;
+Color: #fff;
+}
+
+.sm-button:hover{
+Background-Color: #2D2D4E
+}
+
+/* ===== FOOTER ===== */
+.footer{
+Color: #fff;
+Background-Color: #1A1A2E;
+text-align: center;
+}
+
+.footer-logo{
+Color: #C9A84C
+}
+
+li{
+Color: #9CA3AF;
+list-style-type: none;
+}
+
+li:hover{
+Color: #fff
+}
+
+.copyright{
+Color: #6B7280    
+}
+
+TEXT:
+    Title:
+        ArcTowers - Architecture Redefined
+    Nav Menu:
+        Projects
+        Services
+        Team
+        Get in Touch
+    Hero Section:
+        Architecture Redefined
+        We design spaces that inspire, endure, and transform the way people live and work.
+        View Our Work
+    Projects Section:
+        Featured Projects
+        A selection of our most iconic designs across residential, commercial, and public spaces
+        Card 1:
+            Petronas Twin Towers
+            The world's tallest twin towers, an iconic 88-storey landmark of modern Islamic design.
+            Tag: Kuala Lumpur
+        Card 2:
+            Merdeka 118
+            The second tallest building in the world at 678.9m, a striking supertall skyscraper.
+            Tag: Kuala Lumpur
+        Card 3:
+            Sultan Abdul Samad Building
+            A heritage Moorish Revival masterpiece overlooking Dataran Merdeka, built in 1897.
+            Tag: Selangor
+    Services Section:
+        Our Services
+        End-to-end architectural solutions tailored to your vision
+        Card 1:
+            <i class="bi bi-pencil-square"></i>
+            Concept Design
+            From initial sketches to 3D visualisations, we bring your ideas to life with precision and creativity.
+        Card 2:
+            <i class="bi bi-building"></i>
+            Construction Planning
+            Detailed blueprints and project management to ensure on-time, on-budget delivery.
+        Card 3:
+            <i class="bi bi-tree"></i>
+            Sustainable Design
+            Eco-friendly materials and energy-efficient layouts that reduce environmental impact.
+        Card 4:
+            <i class="bi bi-house-door"></i>
+            Interior Architecture
+            Thoughtful interior spaces that balance form, function, and comfort.
+        Card 5:
+            <i class="bi bi-geo-alt"></i>
+            Urban Planning
+            Master plans for neighbourhoods and districts that promote connectivity and liveability.
+        Card 6:
+            <i class="bi bi-rulers"></i>
+            Renovation & Restoration
+            Breathing new life into heritage buildings while preserving their character and history.
+    Team Section:
+        Meet Our Team
+        Award-winning architects and designers dedicated to excellence
+        Member 1:
+            <i class="bi bi-gender-male"></i>
+            Paul
+            Principal Architect
+            20+ years of experience in sustainable commercial design. Winner of the Global Design Award 2023.
+        Member 2:
+            <i class="bi bi-gender-male"></i>
+            Subash
+            Lead Designer
+            Specialist in residential architecture with a focus on minimalist, functional living spaces.
+        Member 3:
+            <i class="bi bi-gender-female"></i>
+            Kher Nee
+            Urban Planner
+            Expert in mixed-use developments and community-driven urban design projects.
+    Contact Section:
+        Start Your Project
+        Ready to bring your vision to life? Get in touch and let's discuss your next project.
+        Benefits:
+            Free initial consultation
+            Personalised design approach
+            Transparent pricing
+        Form Fields:
+            Full Name (placeholder: John Doe)
+            Email Address (placeholder: john@company.com)
+            Budget (placeholder: e.g. RM 500,000)
+            Message (placeholder: Tell us about your project...)
+            Send Enquiry
+LAYOUT NOTES:
+    - Navbar: Flexbox row, logo left, links right
+    - Projects: CSS Grid, 3 columns
+    - Services: CSS Grid, 3 columns (2 rows)
+    - Team: Flexbox row, 3 cards, centered
+    - Contact: Flexbox row, content left, form right
+    - Footer: Centered text layout
+
+/* ===== RESPONSIVE ===== */
+RESPONSIVE BREAKPOINTS:
+    Tablet (max-width: 991px):
+        - Hamburger menu replaces nav links
+        - Projects grid becomes 2 columns
+        - Services grid becomes 2 columns
+        - Contact section stacks vertically
+    Mobile (max-width: 767px):
+        - Projects grid becomes 1 column
+        - Services grid becomes 1 column
+        - Team cards stack vertically
+        - Reduced heading sizes
+        - Footer links stack vertically
+
+
+
+
